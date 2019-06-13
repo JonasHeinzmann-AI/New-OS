@@ -1,5 +1,8 @@
 # New-OS
 
+New in version **0.0.0.2**  
+    - Functioning OS
+
  **Choosing your development environment**
 
 You need a platform to develop your new system on. Following the trends of general computing, the two most popular are Windows and GNU/Linux. Developers using a GNU/Linux system have a slight advantage in availability of tools, but this can be solved on Windows using a system such as Cygwin.
