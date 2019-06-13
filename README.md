@@ -2,6 +2,7 @@
 
 New in version **0.0.0.2**  
     - Functioning OS
+    - Bug fixes
 
  **Choosing your development environment**
 
