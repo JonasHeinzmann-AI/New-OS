@@ -1,6 +1,7 @@
 # New-OS v.0.0.0.1
 
-In version 0.0.0.1, the OS displays Hello World after startup.
+New in version 0.0.0.1.1
+ -Bug Fixes
 
  **Choosing your development environment**
 
