@@ -1,6 +1,6 @@
 # New-OS v.0.0.0.1
 
-New in version 0.0.0.1.1
+New in version 0.0.0.1.1  
  -Bug Fixes
 
  **Choosing your development environment**
