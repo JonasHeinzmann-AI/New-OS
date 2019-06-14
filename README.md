@@ -1,7 +1,8 @@
 # New-OS
 
-New in version **0.0.0.3**  
-    - Hardware-Communications, Ports and Interrupts added
+New in version **0.0.1**  
+    - Keyboard driver added
+    - It can be written in the OS
 
  **Choosing your development environment**
 
