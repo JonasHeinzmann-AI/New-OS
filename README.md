@@ -1,7 +1,7 @@
 # New-OS
 
 New in version **0.0.1**  
-    - Keyboard driver added
+    - Keyboard driver added  
     - It can be written in the OS
 
  **Choosing your development environment**
