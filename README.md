@@ -2,7 +2,7 @@
 
 New in version **0.0.1.1**  
     - Keyboard and Mouse driver added  
-    - It can be written in the OS
+    - It can be written in the OS  
     - Files Sorted and organized
 
  **Choosing your development environment**
