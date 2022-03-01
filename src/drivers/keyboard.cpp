@@ -105,6 +105,59 @@ uint32_t KeyboardDriver::HandleInterrupt(uint32_t esp)
 
             case 0x1C: handler->OnKeyDown('\n'); break;
             case 0x39: handler->OnKeyDown(' '); break;
+                if key == 0x2a{
+                    switch (key)
+                    {
+                    case 0x02: handler->OnKeyDown('!'); break;
+                    case 0x03: handler->OnKeyDown('"'); break;
+                    case 0x04: handler->OnKeyDown('§'); break;
+                    case 0x05: handler->OnKeyDown('$'); break;
+                    case 0x06: handler->OnKeyDown('%'); break;
+                    case 0x07: handler->OnKeyDown('&'); break;
+                    case 0x08: handler->OnKeyDown('/'); break;
+                    case 0x09: handler->OnKeyDown('('); break;
+                    case 0x0A: handler->OnKeyDown(')'); break;
+                    case 0x0B: handler->OnKeyDown('='); break;
+
+                    case 0x10: handler->OnKeyDown('Q'); break;
+                    case 0x11: handler->OnKeyDown('W'); break;
+                    case 0x12: handler->OnKeyDown('E'); break;
+                    case 0x13: handler->OnKeyDown('R'); break;
+                    case 0x14: handler->OnKeyDown('T'); break;
+                    case 0x15: handler->OnKeyDown('Z'); break;
+                    case 0x16: handler->OnKeyDown('U'); break;
+                    case 0x17: handler->OnKeyDown('I'); break;
+                    case 0x18: handler->OnKeyDown('O'); break;
+                    case 0x19: handler->OnKeyDown('P'); break;
+
+                    case 0x1E: handler->OnKeyDown('A'); break;
+                    case 0x1F: handler->OnKeyDown('S'); break;
+                    case 0x20: handler->OnKeyDown('D'); break;
+                    case 0x21: handler->OnKeyDown('F'); break;
+                    case 0x22: handler->OnKeyDown('G'); break;
+                    case 0x23: handler->OnKeyDown('H'); break;
+                    case 0x24: handler->OnKeyDown('J'); break;
+                    case 0x25: handler->OnKeyDown('K'); break;
+                    case 0x26: handler->OnKeyDown('L'); break;
+
+                    case 0x2C: handler->OnKeyDown('Y'); break;
+                    case 0x2D: handler->OnKeyDown('X'); break;
+                    case 0x2E: handler->OnKeyDown('C'); break;
+                    case 0x2F: handler->OnKeyDown('V'); break;
+                    case 0x30: handler->OnKeyDown('B'); break;
+                    case 0x31: handler->OnKeyDown('N'); break;
+                    case 0x32: handler->OnKeyDown('M'); break;
+                    case 0x33: handler->OnKeyDown(';'); break;
+                    case 0x34: handler->OnKeyDown(':'); break;
+                    case 0x35: handler->OnKeyDown('_'); break;
+
+                    default:
+                    {
+                        printf("KEYBOARD 0x");
+                        printfHex(key);
+                        break;
+                    }
+            }
 
             default:
             {
